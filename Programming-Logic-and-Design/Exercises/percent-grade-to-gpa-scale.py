@@ -10,7 +10,7 @@ print ("\033[0;33m--------------------------------------------------------------
 print ("\033[0;32mWelcome! This is Programming Logic and Design's Grade Computer \033[0m")
 print ("\033[0;33m---------------------------------------------------------------\033[0m")
 
-#To get student informatio
+#To get student information
 first_name = (input("Enter your \033[0;36mFirst Name:\033[0m "))
 last_name = (input("Enter Your \033[0;35mLast Name:\033[0m "))
 
