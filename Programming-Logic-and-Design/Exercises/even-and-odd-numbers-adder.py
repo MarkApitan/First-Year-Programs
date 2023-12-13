@@ -92,7 +92,8 @@ while True:
     print (border)
     try_again = input ("Do you want to use the program again? (yes/no): ") 
     
-    if try_again == "yes":
+    if try_again.lower() == "yes":
+        print (border)
         print("\tWelcome back to EVEN and ODD numbers adder program")
     else:
         print (border)
