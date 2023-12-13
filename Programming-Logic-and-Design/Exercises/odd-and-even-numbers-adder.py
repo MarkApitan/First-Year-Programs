@@ -1,4 +1,3 @@
-
 #get the input
 
 attempts = 3
@@ -24,5 +23,3 @@ while attempts >0 :
         if attempts == 0:
             print ("You ran out of attempts")
             exit()
-
-
