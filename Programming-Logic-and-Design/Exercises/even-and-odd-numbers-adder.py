@@ -28,7 +28,7 @@ while True:
 
         #To check if the input is a number and has no decimal
         if number.isnumeric()==True and number.isdecimal()==True:
-    
+            
             #To Check if the input number is not less than or equal to one, I chose one because you cannot add just one number
             if int(number) <=1:
                 attempts = attempts-1
@@ -36,11 +36,9 @@ while True:
                 if attempts > 1:
                     print ("\033[0;31mInvalid Input!\033[0m You cannot input numbers less than or equal to 0")
                     print ("You have " + str(attempts) + " attempts remaining")
-                    print (border)
                 elif attempts == 1:
                     print ("\033[0;31mInvalid Input!\033[0m You cannot input numbers less than or equal to 0")
                     print ("You have " + str(attempts) + " attempt remaining")
-                    print (border)
                 elif attempts == 0:
                     print ("\033[0;31mYou ran out of attempts\033[0m")
                     exit()
@@ -56,11 +54,9 @@ while True:
             if attempts > 1:
                 print ("\033[0;31mInvalid Input!\033[0m Please Input a Number")
                 print ("You have " + str(attempts) + " attempts remaining")
-                print (border)
             elif attempts == 1:
                 print ("\033[0;31mInvalid Input!\033[0m Please Input a Number")
                 print ("You have " + str(attempts) + " attempt remaining")
-                print (border)
             elif attempts == 0:
                 print ("\033[0;31mYou ran out of attempts\033[0m")
                 exit()
@@ -76,12 +72,12 @@ while True:
                     attempts_2=attempts_2-1
                     if attempts_2 > 1:
                         print (border)
-                        print ("\033[0;31mInvalid Input!\033[0m Please Input a Number")
+                        print ("\033[0;31mInvalid Input!\033[0m You cannot input zero")
                         print ("You have " + str(attempts_2) + " attempts remaining")
                         print (border)
                     elif attempts_2 == 1:
                         print (border)
-                        print ("\033[0;31mInvalid Input!\033[0m Please Input a Number")
+                        print ("\033[0;31mInvalid Input!\033[0m You cannot input zero")
                         print ("You have " + str(attempts_2) + " attempt remaining")
                         print (border)
                     elif attempts_2 == 0:
@@ -90,7 +86,7 @@ while True:
                         exit()
                 #to check if the input are odd or even
                 if int(num)%2==0:
-                    #To get the sum of al even numbers
+                    #To get the sum of all even numbers
                     even_sum=(int(even_sum)+int(num))
                     break
                 else:
