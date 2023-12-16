@@ -4,7 +4,7 @@
 #Mark Justine L. Apitan
 
 #Assign border to make my life easier
-border = ("\033[1;33m-------------------------------------------------------------------\033[0m")
+border = ("\033[1;35m-------------------------------------------------------------------\033[0m")
 
 #Welcome introduction of the program
 print (border)
