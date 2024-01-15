@@ -49,10 +49,7 @@ elif letter == "a":
         third = n2
     elif n3 < second:
         third = n3
- 
-    print (third)
-    print (second)
-    print (first)
-
+    print (f"Ascending Order: {third}, {second}, {first}")
+    print (f"Descending Order: {first}, {second}, {third}")
 else:
     print("Invalid")
