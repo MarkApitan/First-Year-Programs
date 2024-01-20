@@ -16,38 +16,38 @@ def is_int(num1,num2,num3):
 if is_int(num1,num2,num3) == False:
     print("Invalid Input! Please Enter a number")
     exit()
-elif letter == "a":
+elif letter.lower() == "a":
     n1 = int(num1)
     n2 = int(num2)
     n3 = int(num3)
 
-    if n1 > n2 and n1 > n3:
+    if n1 >= n2 and n1 >= n3:
         first = n1
-    elif n2 > n1 and n2 > n3:
+    elif n2 >= n1 and n2 >= n3:
         first = n2
-    elif n3 > n1 and n3 > n2:
+    elif n3 >= n1 and n3 >= n2:
         first = n3
     first = int(first)
 
-    if n1 < first and n1 > n3:
+    if n1 <= first and n1 >= n3:
         second = n1
-    elif n1 < first and n1 > n2:
+    elif n1 <= first and n1 >= n2:
         second = n1
-    elif n2 < first and n2 > n3:
+    elif n2 <= first and n2 >= n3:
         second = n2
-    elif n2 < first and n2 > n1:
+    elif n2 <= first and n2 >= n1:
         second = n2
-    elif n3 < first and n3 > n2:
+    elif n3 <= first and n3 >= n2:
         second = n3
-    elif n3 < first and n3 > n1:
+    elif n3 <= first and n3 >= n1:
         second = n3
     second = int(second)
 
-    if n1 < second:
+    if n1 <= second:
         third = n1
-    elif n2 < second:
+    elif n2 <= second:
         third = n2
-    elif n3 < second:
+    elif n3 <= second:
         third = n3
     print (f"Ascending Order: {third}, {second}, {first}")
     print (f"Descending Order: {first}, {second}, {third}")
