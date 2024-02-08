@@ -29,7 +29,7 @@ while end_of_program == False:
         elif magnitude >=1.0 and magnitude <2.0:
             print ("Microearthquakes not felt or rarely felt")
         else:
-            print ("Invalid! you can input negative values")
+            print ("Invalid! you can't input negative values")
         input_again = input("Do you want to use the program again? (y/n): ")
         if input_again.lower() == "y":
             print ("Welcome back to the program!")
@@ -38,5 +38,5 @@ while end_of_program == False:
             print ("Thank you for using the program!")
             end_of_program = True
     else:
-        print ("Invalid input. You ")
+        print ("Invalid input.")
         end_of_program = True
