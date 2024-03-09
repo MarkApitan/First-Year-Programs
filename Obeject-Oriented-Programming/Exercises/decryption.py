@@ -17,7 +17,7 @@ decryption_key = {"*": "a",
            }
 
 #To get the input from the user
-message = input("Enter a string to decrypt: ") .lower()
+message = input("Enter a string to decrypt: ").lower()
 
 #To define the empty string
 new_message = ''
