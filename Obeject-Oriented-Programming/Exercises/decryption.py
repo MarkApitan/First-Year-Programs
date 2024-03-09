@@ -4,6 +4,10 @@
 #Instructor: Engr. Julius S. Cansino
 #Date Submitted: March 9, 2024
 
+border = ("-----------------------------------------------------------------------------------------------------------------------------------")
+
+print("\nProgram Title: Lab Exercise No 1 | Problem No. 2 \nProgrammed by: Mark Justine L. Apitan")
+print(border)
 #To define the decrytion key
 decryption_key = {"*": "a",
            "&": "e",
@@ -13,7 +17,7 @@ decryption_key = {"*": "a",
            }
 
 #To get the input from the user
-message = input("Enter a string to decrypt: ") 
+message = input("Enter a string to decrypt: ") .lower()
 
 #To define the empty string
 new_message = ''
@@ -31,3 +35,4 @@ for char in message:
 
 #To display the new message
 print(f"The Plain Text: {new_message}")
+print(border)
