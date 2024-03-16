@@ -14,10 +14,10 @@ name = input("Enter a name: ")
 
 #To display the outputs
 #a. returns the name in lower case
-print(f"\nlower case: {name.lower()}")
+print("\nlower case: "+name.lower())
 #b. returns the name in upper case
-print(f"UPPER case: {name.upper()}")
+print("UPPER case: "+name.upper())
 #c. returns the name with the first letter as UPPER case and the rest lower 
-print(f"Capitalized the first letter: {name[0].upper()}{name[1:].lower()}")
+print("Capitalized the first letter: "+name[0].upper()+name[1:].lower())
 
 print(border)

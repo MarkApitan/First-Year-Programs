@@ -13,12 +13,14 @@ print(border)
 username = input("Enter a username which has 6 characters: ")
 
 #To define variable
-lenght = len(username)
+length = len(username)
 
 #To check if the input are 6 characters long
-if lenght == 6:
+if length == 6:
     print("You have entered 6 characters")
-else:
-    print("Error! You have not entered 6 characters")
+elif length > 6:
+    print("Error! You have entered greater than 6 characters")
+elif length < 6:
+    print("Error! You have entered less than 6 characters")
 
 print(border)
