@@ -14,6 +14,8 @@ username = input("Enter a username which has 6 characters: ")
 
 #To define variable
 length = len(username)
+alpha_checker = username[0:4].isalpha()
+digits_checker = username[4:6].isdigit()
 
 #To check if the input are 6 characters long
 if length == 6:
@@ -22,5 +24,15 @@ elif length > 6:
     print("Error! You have entered greater than 6 characters")
 elif length < 6:
     print("Error! You have entered less than 6 characters")
+
+#To check 
+if alpha_checker == True and digits_checker == True:
+    print(f"The first four characters are alpha, and the fifth and sixth characters are digits.")
+elif alpha_checker == False and digits_checker == True:
+    print(f"The first four characters are NOT alpha, and the fifth and sixth characters are digits.")
+elif alpha_checker == True and digits_checker == False:
+    print(f"The first four characters are alpha, and the fifth and sixth characters are NOT digits.")
+else:
+    print(f"The first four characters are NOT alpha, and the fifth and sixth characters are NOT digits.")
 
 print(border)
