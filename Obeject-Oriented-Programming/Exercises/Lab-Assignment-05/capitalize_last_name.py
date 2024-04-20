@@ -6,7 +6,7 @@
 
 #Introduction 
 border = ("-----------------------------------------------------------------------------------------------------------------------------------")
-print("\nProgram Title: Lab Assignment No 4 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
+print("\nProgram Title: Lab Assignment No 5 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
 print(border)
 #To define checker that will check if all the characters in the string are letters
 def checker(name, test):
