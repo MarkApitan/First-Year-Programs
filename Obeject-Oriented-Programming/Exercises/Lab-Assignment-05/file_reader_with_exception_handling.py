@@ -10,9 +10,10 @@ print(border)
 
 #To read and close the file
 try:
-    read = open("sqrt_results.txt","r")
-    read.close
-    print("File read succesfully")
+    with open("sqrt_results", "r") as file:  # Open the file in read mode
+        contents = file.read()  # Read the contents of the file
+        print(f"Contents: {contents}")  # Print the contents 
+        file.close
 #To handle the errors
 except FileNotFoundError:
     print("FileNotFoundError: File not found!")

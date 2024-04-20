@@ -11,7 +11,7 @@ print(border)
 import math
 
 #Open and write a file
-sqrt = open("sqrt_results.txt","w")
+sqrt = open("sqrt_results","w")
 
 def main ():
     #define variables
