@@ -1,13 +1,16 @@
-#Lab Assignment No 4: Problem No. 4
-#Programmed by: Mark Justine L. Apitan
-#Course, Year and Section: BSCpE 1-3
-#Instructor: Engr. Julius S. Cansino
-#Date Submitted:March 24, 2024
+# Define a function capitalize_last_name() that accepts as argument a string with a (single) first and a (single) last name, 
+# and returns a string in which only the first letter of the first name is uppercase, whereas all letters of the last name are uppercase; 
+# in otherwords, 'marisa tomei' becomes 'Marisa TOMEI'. 
+# (Tip: use str.split() to split a str into separate words.)
+# If something other than a str object is passed as an argument, the function should raise a TypeError. 
+# (Tip: you can use isistance() to check whether an object is of a particular type.) 
+# If the str does not consist of exactly two words, the function should raise a ValueError.
 
 #Introduction 
 border = ("-----------------------------------------------------------------------------------------------------------------------------------")
-print("\nProgram Title: Lab Assignment No 5 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
+print("\nProgram Title: Lab Assignment No 4 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
 print(border)
+
 #To define checker that will check if all the characters in the string are letters
 def checker(name, test):
     test = name.isalpha()

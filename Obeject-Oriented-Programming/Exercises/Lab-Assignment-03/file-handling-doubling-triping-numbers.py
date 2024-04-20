@@ -1,12 +1,10 @@
-#Lab Assignment No 2: Problem No. 4
-#Programmed by: Mark Justine L. Apitan
-#Course, Year and Section: BSCpE 1-3
-#Instructor: Engr. Julius S. Cansino
-#Date Submitted:March 24, 2024
+# Write a method in python will create two separate text files after reading the source text file named integers.txt that contains 20 integers. 
+# The first output file will be named double.txt containing the square of all even integers found in integers.txt 
+# and the second file will be named triple.txt containing the cube of all odd numbers found in the integers.txt.
 
 #Introduction 
 border = ("-----------------------------------------------------------------------------------------------------------------------------------")
-print("\nProgram Title: Lab Assignment No 2 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
+print("\nProgram Title: Lab Assignment No 3 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
 print(border)
 
 #To define the lists

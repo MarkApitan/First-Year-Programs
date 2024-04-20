@@ -1,12 +1,12 @@
-#Lab Assignment No 2: Problem No. 1
-#Programmed by: Mark Justine L. Apitan
-#Course, Year and Section: BSCpE 1-3
-#Instructor: Engr. Julius S. Cansino
-#Date Submitted:March 24, 2024
+# Write a Python program that reads a text file named numbers.txt that contains 20 integers. 
+# The program will create two other text files; 
+# the first text file will be named even.txt that will contain all even numbers extracted from the numbers.txt.  
+# The second text file will be named odd.txt  
+# that will contain all odd numbers extracted from the numbers.txt.
 
 #Introduction 
 border = ("-----------------------------------------------------------------------------------------------------------------------------------")
-print("\nProgram Title: Lab Assignment No 2 | Problem No. 1 \nProgrammed by: Mark Justine L. Apitan")
+print("\nProgram Title: Lab Assignment No 3 | Problem No. 1 \nProgrammed by: Mark Justine L. Apitan")
 print(border)
 
 #To define variables

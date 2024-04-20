@@ -1,12 +1,8 @@
-#Lab Assignment No 2: Problem No. 3
-#Programmed by: Mark Justine L. Apitan
-#Course, Year and Section: BSCpE 1-3
-#Instructor: Engr. Julius S. Cansino
-#Date Submitted:March 24, 2024
+# Write a method in python to write multiple line of text contents into a text file mylife.txt. 
 
 #Introduction 
 border = ("-----------------------------------------------------------------------------------------------------------------------------------")
-print("\nProgram Title: Lab Assignment No 2 | Problem No. 3 \nProgrammed by: Mark Justine L. Apitan")
+print("\nProgram Title: Lab Assignment No 3 | Problem No. 3 \nProgrammed by: Mark Justine L. Apitan")
 print(border)
 
 #To define variables

@@ -1,12 +1,9 @@
-#Lab Assignment No 2: Problem No. 4
-#Programmed by: Mark Justine L. Apitan
-#Course, Year and Section: BSCpE 1-3
-#Instructor: Engr. Julius S. Cansino
-#Date Submitted:March 24, 2024
+# Write a Python program that read a binary file containing the name of 20 students together with their GWA.  
+# The program will output the name of the student who got the highest GWA (including the GWA).
 
 #Introduction 
 border = ("-----------------------------------------------------------------------------------------------------------------------------------")
-print("\nProgram Title: Lab Assignment No 2 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
+print("\nProgram Title: Lab Assignment No 3 | Problem No. 4 \nProgrammed by: Mark Justine L. Apitan")
 print(border)
 
 #To import pickle

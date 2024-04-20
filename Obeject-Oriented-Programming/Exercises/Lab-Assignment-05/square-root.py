@@ -1,12 +1,10 @@
-#Lab Assignment No 5: Problem No. 1
-#Programmed by: Mark Justine L. Apitan
-#Course, Year and Section: BSCpE 1-3
-#Instructor: Engr. Julius S. Cansino
-#Date Submitted:March 24, 2024
+# Write a Python program that prompts the user to enter a number, calculates its square root, and handles the "ValueError" exception 
+# by displaying an appropriate error message when the user enters a negative number. 
+# The program should also write the results to a file named "sqrt_results.txt".
 
 #Introduction 
 border = ("-----------------------------------------------------------------------------------------------------------------------------------")
-print("\nProgram Title: Lab Assignment No 5 | Problem No. 1 \nProgrammed by: Mark Justine L. Apitan")
+print("\nProgram Title: Lab Assignment No 4 | Problem No. 1 \nProgrammed by: Mark Justine L. Apitan")
 print(border)
 
 #To import math module
