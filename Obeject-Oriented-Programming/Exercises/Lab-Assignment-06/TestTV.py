@@ -9,12 +9,15 @@ from TV import TV
 
 # Create a TV object named tv1
 tv1 = TV(30, 2, True)
+tv1.setChannel(30)
+tv1.setVolume(2)
 
 # Display the current channel and volume level of tv1
 print(f"tv1's channel is {tv1.getChannel()} and volume level is {tv1.getVolume()}")
 
 # Create a TV object named tv2
-tv2 = TV(8, 7, True)
-
+tv2 = TV(500, 100, True)
+tv1.setChannel(500)
+tv1.setVolume(100)
 # Display the current channel and volume level of tv2
 print(f"tv2's channel is {tv2.getChannel()} and volume level is {tv2.getVolume()}")

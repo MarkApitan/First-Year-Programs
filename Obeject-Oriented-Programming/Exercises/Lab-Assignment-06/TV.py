@@ -8,14 +8,8 @@ class TV:
 
     def __init__(self, channel=1, volumeLevel=1, on=False):
         # Construct TV Object
-        if 1 <= channel <= 120:
-            self.channel = channel
-        else:
-            self.channel = 1
-        if 1 <= volumeLevel <= 7:
-            self.volumelevel = volumeLevel
-        else:
-            self.volumelevel = 1
+        self.channel = channel
+        self.volumelevel = volumeLevel
         self.on = on
 
     def turnOn(self):
