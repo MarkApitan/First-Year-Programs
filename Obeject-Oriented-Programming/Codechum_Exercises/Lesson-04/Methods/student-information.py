@@ -26,7 +26,10 @@ class Student:
     def validate_info(self):
         if len(str(self.id_number)) != 9:
             print ("Student information is not valid.")
-        elif not self.name.isalpha():
+        elif not self.name.replace(" ", "").isalpha():
             print ("Student information is not valid.")
         else:
             print ("Student information is valid.")
+
+student1 = Student(123456789, "John Doe", "Computer Science")
+student1.validate_info()
