@@ -20,10 +20,14 @@
 # Start typing your code
 class Beverage:
     def __init__ (self, flavor: str = "Unknown", color: str = "Unknown"):
+        # Initialize the flavor property with the value passed in the flavor parameter
         self.flavor = flavor
+        # Initialize the color property with the value passed in the color parameter
         self.color = color
 
 class Bottle:
     def __init__ (self, mL = int, flavor: str = "Unknown", color: str = "Unknown"):
+        # Initialize the mL property with the value passed in the mL parameter
         self.mL = mL
+        # Create a Beverage object using the flavor and color values
         self.beverage = Beverage(flavor, color)

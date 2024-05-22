@@ -13,8 +13,13 @@
 # Constructor:
 # __init__(self, name: str, color: str, gender: str): This constructor takes three parameters: name, color, and gender. It assigns these values to their respective properties within the class.
 
+# Define a class called Cat
 class Cat:
-    def __init__ (self, name: str, color: str, gender: str):
+    # Define the constructor method
+    def __init__(self, name: str, color: str, gender: str):
+        # Assign the value of the 'name' parameter to the 'name' property
         self.name = name
+        # Assign the value of the 'color' parameter to the 'color' property
         self.color = color
+        # Assign the value of the 'gender' parameter to the 'gender' property
         self.gender = gender

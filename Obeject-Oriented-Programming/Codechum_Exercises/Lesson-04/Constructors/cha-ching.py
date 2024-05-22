@@ -21,5 +21,5 @@
 
 class Money:
     def __init__ (self, amount: int = 0, denomination: str = "Unknown"):
-        self.amount = amount
-        self.denomination = denomination
+        self.amount = amount  # Initialize the amount property with the provided value or 0 if not provided.
+        self.denomination = denomination  # Initialize the denomination property with the provided value or "Unknown" if not provided.

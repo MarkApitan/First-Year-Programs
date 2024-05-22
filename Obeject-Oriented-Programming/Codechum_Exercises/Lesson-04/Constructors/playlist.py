@@ -22,11 +22,17 @@
 # Start typing your code
 class Music:
     def __init__ (self, duration: int = 0, genre: str = "Unknown", duration_type: str = "m"):
+        # Initialize the genre property with the provided genre value
         self.genre = genre
+        # Initialize the duration_type property with the provided duration_type value
         self.duration_type = duration_type
+        # Check the value of duration_type to determine how to set the duration property
         if duration_type == "h":
+            # If duration_type is 'h', convert hours to minutes and set the duration property
             self.duration = duration * 60
         elif duration_type == "d":
+            # If duration_type is 'd', convert days to minutes and set the duration property
             self.duration =  duration * 1440
         else:
+            # If duration_type is not 'h' or 'd', assume duration is already in minutes and set the duration property
             self.duration = duration
