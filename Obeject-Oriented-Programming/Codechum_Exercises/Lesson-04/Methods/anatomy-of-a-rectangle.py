@@ -12,11 +12,15 @@
 #get_area(self) -> float: This method takes no parameters. It calculates the area of the rectangle using the formula Area = length x width and returns the result as a floating-point value.
 class Rectangle:
     def __init__(self, length = float, width = float):
+        # Initialize the Rectangle object with length and width parameters
         self.length = length
         self.width = width
+    
     def get_area(self):
+        # Calculate the area of the rectangle using the formula Area = length x width
         return self.length * self.width
 
+# Create Rectangle objects with different length and width values
 rectangle1 = Rectangle(5,10)
 print(rectangle1.get_area())
 

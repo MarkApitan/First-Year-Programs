@@ -11,7 +11,10 @@
 
 class Pet:
     def move(self):
+        # This method prints a message indicating that the pet has moved.
         print("The pet has moved.")
+    
     def give_companionship(self, n = int):
-        for i in range (n):
-            print ("The pet is giving you companionship.")
+        # This method accepts an integer n and prints the message "The pet is giving you companionship." n times (one per line).
+        for i in range(n):
+            print("The pet is giving you companionship.")
