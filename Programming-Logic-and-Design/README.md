@@ -10,7 +10,7 @@ Compilation of programs that I made while taking the Course Programming Logic an
 - Functions
 
 ## Course Activity Folders:
-- [Exercises](https://github.com/MarkApitan/College-Programs/tree/main/First-Year-Programs/Programming-Logic-and-Design/Exercises)
-- [Midterm](https://github.com/MarkApitan/College-Programs/tree/main/First-Year-Programs/Programming-Logic-and-Design/Midterm)
-- [Finals](https://github.com/MarkApitan/College-Programs/tree/main/First-Year-Programs/Programming-Logic-and-Design/Finals)
+- [Exercises](https://github.com/MarkApitan/First-Year-Programs/tree/main/Programming-Logic-and-Design/Exercises)
+- [Midterm](https://github.com/MarkApitan/First-Year-Programs/tree/main/Programming-Logic-and-Design/Midterm)
+- [Finals](https://github.com/MarkApitan/First-Year-Programs/tree/main/Programming-Logic-and-Design/Finals)
 
