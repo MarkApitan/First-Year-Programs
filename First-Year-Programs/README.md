@@ -1,0 +1,1 @@
+Compilation of programs that I made during my first year of college, school year 2023-2024.
