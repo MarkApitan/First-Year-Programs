@@ -1,41 +1,42 @@
-# Drinking a Beverage - Python
-# by CodeChum Admin
+from beverage import Beverage
+from water import Water
+from beer import Beer
+def test_beverages():
+    # Test Beverage class
+    beverage = Beverage("Juice", 500, True)
+    print(beverage)  # Juice (500mL) is still chilled
+    print(beverage.is_empty())  # False
+    print(beverage.get_name())  # Juice
+    print(beverage.get_volume())  # 500
+    print(beverage.get_is_chilled())  # True
 
-# Implement the Beverage class which has the following details:
+    # Test Water class
+    water = Water(750, True, "Purified")
+    print(water)  # Water (750mL) is still chilled
+    print(water.is_empty())  # False
+    print(water.get_name())  # Water
+    print(water.get_volume())  # 750
+    print(water.get_is_chilled())  # True
+    print(water.get_type())  # Purified
 
-# Base Class - Beverage:
+    # Test default type in Water class
+    default_water = Water(500, False, "")
+    print(default_water.get_type())  # Regular
 
-# Private Properties:
-# name (type: str): The name of the beverage.
-# volume (type: int): The volume of the beverage in milliliters.
-# is_chilled (type: bool): Indicates if the beverage is chilled.
-# Constructor:
-# __init__(self, name: str, volume: int, is_chilled: bool): Initializes the name, volume, and is_chilled properties.
-# Methods:
-# is_empty(self) -> bool: Returns True if volume is 0.
-# __str__(self) -> str: Returns a string in the format "{name} ({volume}mL) {is still chilled | is not chilled anymore}".
-# Getter Methods:
-# get_name(self) -> str: Returns the name of the beverage.
-# get_volume(self) -> int: Returns the volume of the beverage.
-# get_is_chilled(self) -> bool: Returns True if the beverage is still chilled, otherwise False.
+    # Test Beer class
+    beer = Beer(330, True, 0.045)
+    print(beer)  # Beer (330mL) is still chilled (4.5% alcoholic content)
+    print(beer.is_empty())  # False
+    print(beer.get_name())  # Beer
+    print(beer.get_volume())  # 330
+    print(beer.get_is_chilled())  # True
+    print(beer.get_type())  # Regular
+    print(beer.get_alcoholic_content())  # 0.045
 
-# Subclass - Water (extends Beverage):
+    # Test type categorization in Beer class
+    flavored_beer = Beer(330, True, 0.02)
+    strong_beer = Beer(330, True, 0.08)
+    print(flavored_beer.get_type())  # Flavored
+    print(strong_beer.get_type())  # Strong
 
-# Additional Private Property:
-# type (type: str): The type of water, can be "Purified", "Regular", or "Distilled".
-# Constructor:
-# __init__(self, volume: int, is_chilled: bool, type: str): Calls the Beverage constructor with "Water" as the name and initializes the type property. If type is empty, set the default to "Regular".
-# Getter Method:
-# get_type(self) -> str: Returns the type of water.
-
-# Subclass - Beer (extends Beverage):
-
-# Additional Private Property:
-# alcoholic_content (type: float): The percentage of alcoholic content (0.01 to 1.00).
-# Constructor:
-# __init__(self, volume: int, is_chilled: bool, alcoholic_content: float): Calls the Beverage constructor with "Beer" as the name and initializes the alcoholic_content property.
-# Methods:
-# get_type(self) -> str: Returns "Flavored", "Regular", or "Strong" based on the alcoholic_content. Flavored for less than 3%, Regular for less than 6%, and other values greater than that are Strong.
-# __str__(self) -> str: Calls the parent's __str__ method and appends the alcoholic percentage. Example: "Beer (249mL) is still chilled (6.0% alcoholic content)". One decimal place for the alcoholic percentage always.
-# Getter Method:
-# get_alcoholic_content(self) -> float: Returns the alcoholic content.
+test_beverages()
