@@ -7,13 +7,13 @@
 # Sample Run:
 # There are 3 scores
 # The total is 297
-# The average 99
+# The average is 99
 
 # Get the filename from the user
 filename = input("Enter a filename: ")
 
 # Open the file
-with open("f{filename}") as f:
+with open(f"{filename}") as f:
     scores = f.read().split()
     total = 0
     count = 0
