@@ -1,3 +1,9 @@
+#Lab Exercise No 6
+#Programmed by: Mark Justine L. Apitan
+#Course, Year and Section: BSCpE 1-3
+#Instructor: Engr. Julius S. Cansino
+#Date Submitted: June 15, 2024
+
 # Import the Tkinter package
 #	Note in Python 3 it is all lowercase
 from tkinter import *
