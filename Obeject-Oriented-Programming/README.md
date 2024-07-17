@@ -7,6 +7,8 @@ Compilation of programs that I made while taking the Course Object Oriented Prog
 - Exception Handling
 - Object Oriented Programming
 - Four Pillars of OOP
+- SQL Lite
+- Tkinter
   
 ## Program Exercises Folder:
 -   [Codechum Exercises](https://github.com/MarkApitan/First-Year-Programs/tree/main/Obeject-Oriented-Programming/Codechum-Exercises)
